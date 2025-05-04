@@ -9,10 +9,10 @@ const AddProduct = () => {
     e.preventDefault();
     axios
       .post('https://fakestoreapi.com/products', {
-        title: form.title,
-        image: form.image,
-        price: form.price,
-        rating: form.rating,
+        title:form.title,
+        image:form.image,
+        price:form.price,
+        rating:form.rating,
       })
       .then((res) => {
         console.log('Product added:', res.data);
