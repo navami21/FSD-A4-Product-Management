@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import '../css/AddProduct.css';
 
 const AddProduct = () => {
-  const [form, setForm] = useState({ title: '', image: '', price: '', rating: '' });
-  const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
+  const [form, setForm] =useState({ title: '', image: '', price: '', rating: '' });
+  const handleChange = (e) =>setForm({ ...form, [e.target.name]: e.target.value });
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
