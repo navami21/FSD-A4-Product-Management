@@ -6,11 +6,13 @@
 }
 
  .nav-link { 
-    color: aliceblue !important; 
+    color: aliceblue !important;
+    font-size: 18px !important; 
   }
   
   .navbar-brand {
       color: aliceblue !important;
+      font-size: 30px !important;
   }
   .nav-link:hover{
     background-color: #c5919e;
